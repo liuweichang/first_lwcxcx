@@ -2,8 +2,22 @@
 <view class="index-all">
 <image src="../../images/index/index_background.jpg" class="bg_img" />
 <view class="user_info">
-	<view class="user_head">
-	
+	<image src="../../images/index/index_msg_bg.png" class="index_msg_bgimg" />
+	<view class="user_head"></view>
+	<view class="user_msg">
+		<view class="user_name">刘伟昌</view>
+		<view class="jifen">
+			<image src="../../images/index/logo_jifen.png" class="jifen_logo_img" />	
+			<view class="jifen_num">666</view>
+		</view>
 	</view>
+	<image class="index_logo" src="../../images/index/index_logo.png" />
+</view>
+<view class="index_bottom">
+	<image src="../../images/index/practice.png" class="practice" />
+	<image src="../../images/index/activity_description.png" class="activity_description"/>
+	<image src="../../images/index/my_table.png" class="my_table"/>
+	<image src="../../images/index/gift_center.png" class="gift_center"/>
+
 </view>
 </view>

@@ -1,26 +1,105 @@
 .index-all{
-
+	margin:0rpx;
+	padding: 0rpx;
 }
 .bg_img{
 	width: 100%;
-	position:fixed;
+	position:absolute;
+	z-index: -1;
 	top: 0;
-	height: 100%
+	height: 100%;
 }
 .user_info{
-	position:relative;
 	width: 680rpx;
 	height: 207rpx;
 	background-color: #496dd0;
-	margin: auto;
-	margin-top: 273rpx;
-	border-radius: 3px
+	margin:300rpx auto 0 auto;
+	border-radius: 3rpx;
+}
+.index_msg_bgimg{
+	width: 680rpx;
+	height: 203rpx;
+	position: absolute;
+	z-index: -1;
 }
 .user_head{
 	width: 135rpx;
 	height: 135rpx;
 	background-color: red;
 	margin-left: 37rpx;
+	border-radius: 50%;
 	float: left;
-	
+	margin-top:34rpx;
+}
+.user_msg{
+	height: 100rpx;
+	width: 170rpx;
+	margin-left: 37rpx;
+	float: left;
+	margin-top: 62rpx
+
+}
+.user_name{
+	width: 170rpx;
+	height: 46rpx;
+	font: 13pt bold ;
+	color: white;	
+	letter-spacing: 4rpx;
+}
+.jifen{
+	height: 44rpx;
+	width: 170rpx;
+	margin-top:5rpx;
+}
+.jifen_logo_img{
+	height: 44rpx;
+	width: 44rpx;
+	display: inline-block;
+}
+.jifen_num{
+	display: inline-block;
+	height: 44rpx;
+	color:white;
+	letter-spacing: 2rpx;
+	font: 13pt bold;
+	margin-left: 8rpx;
+	position: relative;
+	bottom:7rpx;
+
+}
+.index_logo{
+	float: right;
+	width: 235rpx;
+	height: 67rpx;
+	margin-top: 69rpx;
+	margin-right: 37rpx;
+}
+.index_bottom{
+	width: 680rpx;
+	height: 650rpx;
+	margin:20rpx auto;
+}
+.practice{
+	width: 330rpx;
+	height: 422rpx;
+	float: left;
+}
+.activity_description{
+	width: 330rpx;
+	height: 314rpx;
+	margin-top:0rpx;
+	margin-left: 20rpx;
+	float: right;
+}
+.gift_center{
+	width: 330rpx;
+	height: 208rpx;
+	margin-top:20rpx;
+}
+.my_table{
+	width: 330rpx;
+	height: 314rpx;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+	float: right;	
 }
