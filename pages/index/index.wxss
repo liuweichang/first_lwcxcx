@@ -25,14 +25,14 @@
 .user_head{
 	width: 135rpx;
 	height: 135rpx;
-	background-color: red;
 	margin-left: 37rpx;
 	border-radius: 50%;
 	float: left;
 	margin-top:34rpx;
+	border:10rpx white solid;
 }
 .user_msg{
-	height: 100rpx;
+	height: 100rpx;  
 	width: 170rpx;
 	margin-left: 37rpx;
 	float: left;
@@ -45,6 +45,7 @@
 	font: 13pt bold ;
 	color: white;	
 	letter-spacing: 4rpx;
+	margin-left: 6rpx;
 }
 .jifen{
 	height: 44rpx;
@@ -53,7 +54,7 @@
 }
 .jifen_logo_img{
 	height: 44rpx;
-	width: 44rpx;
+	width: 44rpx; 
 	display: inline-block;
 }
 .jifen_num{
@@ -64,7 +65,7 @@
 	font: 13pt bold;
 	margin-left: 8rpx;
 	position: relative;
-	bottom:7rpx;
+	bottom:8rpx;
 
 }
 .index_logo{

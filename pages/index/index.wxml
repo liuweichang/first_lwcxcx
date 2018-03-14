@@ -3,9 +3,9 @@
 <image src="../../images/index/index_background.jpg" class="bg_img" />
 <view class="user_info">
 	<image src="../../images/index/index_msg_bg.png" class="index_msg_bgimg" />
-	<view class="user_head"></view>
+	<image src="{{userInfo.avatarUrl}}" class="user_head" />
 	<view class="user_msg">
-		<view class="user_name">刘伟昌</view>
+		<view class="user_name">{{userInfo.nickName}}</view>
 		<view class="jifen">
 			<image src="../../images/index/logo_jifen.png" class="jifen_logo_img" />	
 			<view class="jifen_num">666</view>
