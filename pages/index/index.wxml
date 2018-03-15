@@ -5,7 +5,8 @@
 	<image src="../../images/index/index_msg_bg.png" class="index_msg_bgimg" />
 	<image src="{{userInfo.avatarUrl}}" class="user_head" />
 	<view class="user_msg">
-		<view class="user_name">{{userInfo.nickName}}</view>
+		<view class="user_name" wx:if="{{!canShow}}">---</view>
+		<view class="user_name" wx:if="{{canShow}}" >{{userInfo.nickName}}</view>
 		<view class="jifen">
 			<image src="../../images/index/logo_jifen.png" class="jifen_logo_img" />	
 			<view class="jifen_num">666</view>
@@ -14,7 +15,9 @@
 	<image class="index_logo" src="../../images/index/index_logo.png" />
 </view>
 <view class="index_bottom">
-	<image src="../../images/index/practice.png" class="practice" />
+	<navigator url="../activity_description/activity_description">
+	<image src="../../images/index/practice.png" class="practice" bindtap="tiaozhuan" />
+	</navigator>
 	<image src="../../images/index/activity_description.png" class="activity_description"/>
 	<image src="../../images/index/my_table.png" class="my_table"/>
 	<image src="../../images/index/gift_center.png" class="gift_center"/>

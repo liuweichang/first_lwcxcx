@@ -1,0 +1,4 @@
+<view class="activity_description_all">
+	<image src="../../images/activity_description/activity_description_bg.png" class="activity_description_bg_img" />
+	<view class="top_description"></view>
+</view>
